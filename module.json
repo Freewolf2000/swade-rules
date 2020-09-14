@@ -1,0 +1,39 @@
+{   
+   "name": "swade-rules",   
+   "title": "SWADE Rules Data",   
+   "description": "Basic SWADE rules and data",   
+   "author": "Pinnacle Entertianment Group",
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.5.0",
+   "compatibleCoreVersion":"0.5.5",
+   "packs": [
+    {
+      "name": "edges",
+      "label": "SWADE Edges",
+      "path": "packs/edges-swade.db",
+      "entity": "Item",
+      "module": "swade-data"
+    },
+    {
+      "name": "hindrances",
+      "label": "SWADE Hindrances",
+      "path": "packs/hindrances-swade.db",
+      "entity": "Item",
+      "module": "swade-data"
+    },
+    {
+      "name": "powers",
+      "label": "SWADE Powers",
+      "path": "packs/powers-swade.db",
+      "entity": "Item",
+      "module": "swade-data"
+    },
+    {
+      "name": "skills",
+      "label": "SWADE Skills",
+      "path": "packs/skills-swade.db",
+      "entity": "Item",
+      "module": "swade-data"
+    }	
+    ]
+ }
