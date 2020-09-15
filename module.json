@@ -9,7 +9,7 @@
    "systems": ["swade"],
    "url": "https://github.com/Freewolf2000/swade-rules",
    "manifest": "https://github.com/Freewolf2000/swade-rules/blob/master/module.json",
-	"download": "https://github.com/Freewolf2000/swade-rules/archive/master.zip"
+	"download": "https://github.com/Freewolf2000/swade-rules/archive/master.zip",
    "packs": [
     {
       "name": "edges",
