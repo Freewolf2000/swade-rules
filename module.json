@@ -12,28 +12,42 @@
       "label": "SWADE Edges",
       "path": "packs/edges-swade.db",
       "entity": "Item",
-      "module": "swade-data"
+      "module": "swade-rules"
     },
     {
       "name": "hindrances",
       "label": "SWADE Hindrances",
       "path": "packs/hindrances-swade.db",
       "entity": "Item",
-      "module": "swade-data"
+      "module": "swade-rules"
     },
     {
       "name": "powers",
       "label": "SWADE Powers",
       "path": "packs/powers-swade.db",
       "entity": "Item",
-      "module": "swade-data"
+      "module": "swade-rules"
     },
     {
       "name": "skills",
       "label": "SWADE Skills",
       "path": "packs/skills-swade.db",
       "entity": "Item",
-      "module": "swade-data"
-    }	
-    ]
- }
+      "module": "swade-rules"
+    },
+    {
+      "name": "rules",
+      "label": "SWADE Rules",
+      "path": "packs/swade-rules.db",
+      "entity": "Journal",
+      "module": "swade-rules"
+    },
+    {
+      "name": "tables",
+      "label": "SWADE Tables",
+      "path": "packs/swade-tables.db",
+      "entity": "RollTable",
+      "module": "swade-rules"
+    }
+  ]
+}
