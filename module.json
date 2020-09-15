@@ -48,6 +48,7 @@
       "path": "packs/swade-tables.db",
       "entity": "RollTable",
       "module": "swade-rules"
-    }
+    },
+    "systems": ["swade"]
   ]
 }
