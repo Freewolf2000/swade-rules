@@ -1,0 +1,79 @@
+{   
+   "name": "swade-rules",   
+   "title": "Rule Set: SWADE",   
+   "description": "Basic SWADE rules and data",   
+   "author": "Pinnacle Entertianment Group",
+   "version": "0.3.0",
+   "minimumCoreVersion": "0.6.6",
+   "compatibleCoreVersion":"0.6.6",
+   "systems": ["swade"],
+   "url": "https://github.com/Freewolf2000/swade-rules",
+   "manifest": "https://raw.githubusercontent.com/Freewolf2000/swade-rules/master/swade-rules/module.json",
+   "download": "https://github.com/Freewolf2000/swade-rules/raw/master/swade-rules.zip",
+   "packs": [
+    {
+      "name": "Edges-SWADE",
+      "label": " Edges SWADE",
+      "system": "swade",
+      "path": "./packs/edges-swade.db",
+      "entity": "Item",
+      "module": "swade-rules"
+    },
+    {
+      "name": "Hindrances-SWADE",
+      "label": "Hindrances SWADE",
+      "system": "swade",
+      "path": "./packs/hindrances-swade.db",
+      "entity": "Item",
+      "module": "swade-rules"
+    },
+    {
+      "name": "Powers-SWADE",
+      "label": "Powers SWADE",
+      "system": "swade",
+      "path": "./packs/powers-swade.db",
+      "entity": "Item",
+      "module": "swade-rules"
+    },
+    {
+      "name": "Skills SWADE",
+      "label": "Skills SWADE",
+      "system": "swade",
+      "path": "./packs/skills-swade.db",
+      "entity": "Item",
+      "module": "swade-rules"
+    },
+    {
+      "name": "Adventure-Toolkit",
+      "label": "The Adventure Toolkit",
+      "system": "swade",
+      "path": "./packs/adventure-toolkit.db",
+      "entity": "JournalEntry",
+      "module": "swade-rules"
+    },
+    {
+      "name": "Situational-Rules",
+      "label": "Situational Rules",
+      "system": "swade",
+      "path": "./packs/situational-rules.db",
+      "entity": "JournalEntry",
+      "module": "swade-rules"
+    },
+    {
+      "name": "Combat-And-Healing",
+      "label": "Combat and Healing",
+      "system": "swade",
+      "path": "./packs/combat-and-healing.db",
+      "entity": "JournalEntry",
+      "module": "swade-rules"
+    },
+    {
+      "name": "Tables-SWADE",
+      "label": "Tables SWADE",
+      "system": "swade",
+      "path": "./packs/tables-swade.db",
+      "entity": "RollTable",
+      "module": "swade-rules"
+    }
+  ]
+}
