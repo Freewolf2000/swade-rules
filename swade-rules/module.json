@@ -3,7 +3,7 @@
    "title": "Rule Set: SWADE",   
    "description": "Basic SWADE rules and data",   
    "author": "Pinnacle Entertianment Group",
-   "version": "0.4.1",
+   "version": "0.4.2",
    "minimumCoreVersion": "0.6.6",
    "compatibleCoreVersion":"0.6.6",
    "systems": ["swade"],
