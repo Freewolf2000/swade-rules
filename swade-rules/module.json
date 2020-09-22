@@ -1,9 +1,9 @@
-{   
-   "name": "swade-rules",   
-   "title": "Rule Set: SWADE",   
-   "description": "Basic SWADE rules and data",   
+{
+   "name": "swade-rules",
+   "title": "Rule Set: SWADE",
+   "description": "Basic SWADE rules and data",
    "author": "Pinnacle Entertianment Group",
-   "version": "0.4.2",
+   "version": "0.5.0",
    "minimumCoreVersion": "0.6.6",
    "compatibleCoreVersion":"0.6.6",
    "systems": ["swade"],
@@ -36,10 +36,18 @@
       "module": "swade-rules"
     },
     {
-      "name": "Skills SWADE",
+      "name": "Skills-SWADE",
       "label": "Skills SWADE",
       "system": "swade",
       "path": "./packs/skills-swade.db",
+      "entity": "Item",
+      "module": "swade-rules"
+    },
+    {
+      "name": "Monster-Creation",
+      "label": "Monster Creation",
+      "system": "swade",
+      "path": "./packs/monster-creation.db",
       "entity": "Item",
       "module": "swade-rules"
     },
