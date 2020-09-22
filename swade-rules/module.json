@@ -3,7 +3,7 @@
    "title": "Rule Set: SWADE",
    "description": "Basic SWADE rules and data",
    "author": "Pinnacle Entertianment Group",
-   "version": "0.5.0",
+   "version": "0.5.1",
    "minimumCoreVersion": "0.6.6",
    "compatibleCoreVersion":"0.6.6",
    "systems": ["swade"],
@@ -44,10 +44,10 @@
       "module": "swade-rules"
     },
     {
-      "name": "Monster-Creation",
-      "label": "Monster Creation",
+      "name": "Monster-Creation-SWADE",
+      "label": "Monster Creation SWADE",
       "system": "swade",
-      "path": "./packs/monster-creation.db",
+      "path": "./packs/monster-creation-swade.db",
       "entity": "Item",
       "module": "swade-rules"
     },
