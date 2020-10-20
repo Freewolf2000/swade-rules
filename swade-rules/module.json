@@ -3,7 +3,7 @@
    "title": "Rule Set: SWADE",
    "description": "Basic SWADE rules and data",
    "author": "Pinnacle Entertianment Group",
-   "version": "0.5.2",
+   "version": "0.6.0",
    "minimumCoreVersion": "0.6.6",
    "compatibleCoreVersion":"0.6.6",
    "systems": ["swade"],
@@ -52,26 +52,34 @@
       "module": "swade-rules"
     },
     {
-      "name": "Adventure-Toolkit",
-      "label": "The Adventure Toolkit",
+      "name": "Adventure-Toolkit-SWADE",
+      "label": "The Adventure Toolkit SWADE",
       "system": "swade",
-      "path": "./packs/adventure-toolkit.db",
+      "path": "./packs/adventure-toolkit-swade.db",
       "entity": "JournalEntry",
       "module": "swade-rules"
     },
     {
-      "name": "Situational-Rules",
-      "label": "Situational Rules",
+      "name": "Combat-And-Healing-SWADE",
+      "label": "Combat and Healing SWADE",
       "system": "swade",
-      "path": "./packs/situational-rules.db",
+      "path": "./packs/combat-and-healing-swade.db",
       "entity": "JournalEntry",
       "module": "swade-rules"
     },
     {
-      "name": "Combat-And-Healing",
-      "label": "Combat and Healing",
+      "name": "Gear-Notes-SWADE",
+      "label": "Gear Notes SWADE",
       "system": "swade",
-      "path": "./packs/combat-and-healing.db",
+      "path": "./packs/gear-notes-swade.db",
+      "entity": "JournalEntry",
+      "module": "swade-rules"
+    },
+    {
+      "name": "Situational-Rules-SWADE",
+      "label": "Situational Rules SWADE",
+      "system": "swade",
+      "path": "./packs/situational-rules-swade.db",
       "entity": "JournalEntry",
       "module": "swade-rules"
     },
