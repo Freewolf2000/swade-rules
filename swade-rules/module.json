@@ -3,7 +3,7 @@
    "title": "Rule Set: SWADE",
    "description": "Basic SWADE rules and data",
    "author": "Pinnacle Entertianment Group",
-   "version": "0.6.0",
+   "version": "0.6.5",
    "minimumCoreVersion": "0.6.6",
    "compatibleCoreVersion":"0.6.6",
    "systems": ["swade"],
@@ -48,6 +48,22 @@
       "label": "Monster Creation SWADE",
       "system": "swade",
       "path": "./packs/monster-creation-swade.db",
+      "entity": "Item",
+      "module": "swade-rules"
+    },
+    {
+      "name": "Arms-and-Armor-SWADE",
+      "label": "Arms and Armor SWADE",
+      "system": "swade",
+      "path": "./packs/arms-and-armor-swade.db",
+      "entity": "Item",
+      "module": "swade-rules"
+    },
+    {
+      "name": "Gear-SWADE",
+      "label": "Gear SWADE",
+      "system": "swade",
+      "path": "./packs/gear-swade.db",
       "entity": "Item",
       "module": "swade-rules"
     },
